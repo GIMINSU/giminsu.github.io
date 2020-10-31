@@ -7,21 +7,27 @@
     a {
                  color:black;<!-- property -->
                  text-decoration: none;
-                 } <!-- selector -->
-                 
-   .saw {
-                 color:gray;
-                 }
+                 } 
    h1 {
                  font-size:45px;
                  text-aline: center;
-                 }
+                 }<!-- tag selector -->
+                 
+                 
+   .saw {
+                 color:gray;
+                 } <!-- class selector -->
+   #active {
+                 color:red;
+                 } <!-- id selector, id 값은 해당 문서에서 단 한번만 써야한다. -->
    </style>      
 </head>
 <body>
                  <h1><a href = "index.html">WEB</a></h1>
                                            <ol>
-                                           <li><a href = "1.html" class="saw">HTML</a></li>
+                                           <li><a href = "1.html" class="saw" id="active">HTML</a></li>
+                                                                                         <li><a href = "2.html" class="saw" id="active">HTML</a></li>
+                                                                             
                                                                              
 </body>
 </html>
