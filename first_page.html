@@ -2,27 +2,26 @@
 <html>
 <head>
   <title> my first blog </title>
-  <meta charset="utf-8>
+  <meta charset="utf-8">
   <style>
-    a {
-        color:black;<!-- property -->
+    
+    h1{
+      border:5px solid #ff0000; 
+      padding:20px;
       text-decoration: none;
-      } 
-   h1 {
-     border:5px;
-    }<!-- tag selector -->
-   .saw {
+      }<!-- tag selector, start . is class, start # is ID and ID should be used only once per document.--> 
+   .class_name {
         color:gray;
         } <!-- class selector -->
-   #active {
+   #id_name {
      color:red;
-    } <!-- id selector, id 값은 해당 문서에서 단 한번만 써야한다. -->
-  </style>      
+    } <!-- id selector -->
+  </style> <!-- Property --><!--블록 레벨 엘레멘트-->     
 </head>
 <body>
-                 <h1><a href = "index.html">WEB</a></h1>
-                                           <ol>
-                                           <li><a href = "1.html" class="saw" id="active">HTML</a></li>
+  <h1><a href = "index.html">WEB</a></h1>
+  <ol>
+    <li><a href = "1.html" class="saw" id="active">HTML</a></li>
                                            <li><a href = "2.html" class="saw">Noihtml</a></li>
                                                                                          </ol>
                                                                              
