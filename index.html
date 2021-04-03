@@ -1,10 +1,12 @@
 <!doctype html>
-<html>
+<html lang="ko">
 <head>
   <title>This blog is being made.</title>
   <meta charset="utf-8">
   <link rel="canonical" href="https://giminsu.github.io/">
+  <!--html 주석 -->
   <style>
+    /*css 주석 */
     #div_home{
       margin:auto;
       width:800px;
@@ -12,14 +14,38 @@
     #div_top{
       width:100%;
       height:100px;
-      background-color:#82FA58;
+      line-height: 100px; /* height 와 동일하게 설정하면 글자 수직 가운데 정렬*/
+      background-color:#333333;
+      color: #ffffff;
       text-align:center;
+      vertical-align: middle; /*이미지 인 경우 가운데 정렬*/
+    }
+    .logo-box{
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    }
+    .logo{
+      width:40px;
+      height: 40px;
     }
   </style>
 </head>
 <body>
-  <div id="div_home">
-  <div id="div_top"> 메인메뉴 </div>
+  <ui class="div_top">
+    <li class="div_top_item_logo">
+      <div class="logo-box">
+        <img src="./book_icon.png" alt="logo" class="logo">
+        <!-- <a class="top_logo_link" href="https://giminsu.github.io", id="div_top_logo">
+        </a>
+          <span class="div_top_logo_text">Home</span> -->
+    </li>
+  </ui>
+  
   </div>
+  </div>
+  <script type='text/javascript'>
+  alert(1+2); // javascript 주석
+  </script>
 </body>
 </html>
